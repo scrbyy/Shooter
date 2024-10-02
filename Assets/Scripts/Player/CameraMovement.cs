@@ -8,7 +8,7 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private float minAngle;
     [SerializeField] private float maxAngle;
 
-    float xRotation = 0f;
+    private float xRotation = 0f;
 
     private void Update()
     {
